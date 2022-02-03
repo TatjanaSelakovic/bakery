@@ -1,0 +1,799 @@
+/* body{
+    overflow-y:hidden;
+} */
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px 40px;
+    align-items: baseline;
+}
+
+.menuBakery li{
+    
+    list-style-type: none;
+    padding-right: 30px;
+}
+
+.menuBakery ul{
+    display: flex;
+}
+
+.menuBakery a{
+    text-decoration: none;
+    color: black;
+}
+
+.menuBakery a:hover{
+    color: gray;
+}
+
+.bakedFresh{
+    background: url("../images/bakery-59.jpg");
+    background-position: top;
+    padding: 0 70px 40px 70px;
+    box-shadow:inset 0 15px 27px rgb(211 211 211 / 38%);
+}
+
+.bakedFreshDaily h1{
+    font-size: 70px;
+    padding: 25px 0;
+}
+
+.bakedFreshDaily span{
+    color: gray;
+    font-size: 30px;
+}
+
+.bakedFreshDaily{
+    padding: 70px 0;
+}
+
+.bakedThirdPic img{
+    padding: 0 40px;
+    max-width: 100%;
+}
+
+.workDays{
+    padding-top: 50px;
+}
+
+.workDays h6{
+    border-top: 1px solid lightgray;
+    padding: 30px 0 10px 0;
+    color: brown;
+}
+
+.workDays p{
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.orderButton a{
+    text-decoration: none;
+    color: white;
+    background: brown;
+    padding: 20px;
+    display: inline-block;
+}
+
+.orderButton{
+    padding-top: 80px;
+}
+
+.servicesSection{
+    padding-top: 120px;
+}
+
+.servicesLeft{
+    padding: 0 70px;
+    position: relative;
+}
+
+.servicesLeftFirstPic{
+    width: 500px;
+}
+
+.servicesAbsolutePic{
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    height: 1093px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.bakery33{
+    position: absolute;
+    z-index: 100;
+    top: 100px;
+    left: 70px;
+    /* width: auto; */
+    width: 500px;
+}
+
+/* .bakery50{
+    max-width: 100%;
+} */
+
+.servicesText{
+    padding-left: 100px;
+    max-width: 100%;
+}
+
+.servicesText p{
+    margin: 0;
+}
+
+.servicesList li{
+    position: relative;
+    list-style-type: none;
+    border: 1px solid lightgray;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.servicesList img{
+    position: absolute;
+    left: 20px;
+    width: 80px;
+}
+
+.servicesList ul{
+    padding: 0;
+    max-width: 500px;
+}
+
+.servicesTitle{
+    padding-top: 200px;
+}
+
+.servicesTitle h2{
+    padding: 10px 0 30px 0;
+}
+
+.colorBrown{
+    color: brown;
+}
+
+.serveLeft h2{
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0 40px 0;
+}
+
+.serveLeft a{
+    text-decoration: none;
+    color: brown;
+}
+
+.serveOptions{
+    padding-bottom: 30px;
+}
+
+.serveOption{
+    border: 1px solid lightgray;
+    background: white;
+}
+
+.serveOption img{
+    max-width: 100%;
+}
+
+.serveOption:hover{
+    box-shadow: 0px 1px 20px 2px lightgrey;
+}
+
+/* .container{
+    padding: 0;               
+} */
+
+.borderBox{
+    border: 1px solid black;
+}
+
+.secondRowServe img{
+    max-width: 100%;
+}   
+
+.sliderThree{
+    background: url("../images/bakery-16.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.sliderThree:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    top: 0;
+}
+
+.textSlider{
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.textSlider p{
+    font-size: 50px;
+    color: white;
+}
+
+.sliderPhoto{
+    position: relative;
+    text-align: center;
+}
+
+.sliderPhoto img{
+    position: relative;
+    margin-bottom: -70px;
+    padding-top: 20px;
+}
+
+.shopPic img{
+    max-width: 100%;
+    padding-left: 60px;
+
+}
+
+.shopPic{
+    padding-top: 150px;
+
+}
+
+.closeMenu {
+display: none;
+}
+
+.shopMain{
+    align-items: center;
+}
+
+.shopText{
+    padding-left: 50px;
+}
+
+.shopText p{
+    width:100%;
+}
+
+.shopText h2{
+    padding: 10px 0;
+}
+
+.shopText a{
+    text-decoration: none;
+    color: white;
+    background-color: brown;
+    padding: 20px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.shopPadding{
+    padding-top: 200px;
+}
+
+.shopOnline{
+    padding-bottom: 100px;
+}
+
+.secondRowServe{
+    position: relative;
+    margin-bottom: -60px;
+    z-index: 100;
+    
+}
+
+.footerBow{
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image: linear-gradient(
+180deg,#160d08 0%,rgba(0,0,0,0.66) 100%),url("../images/bakery-31.jpg")!important;
+}
+
+.footerFour{
+    padding: 50px 0 100px 0;
+    color: white;
+}
+
+.footerBow img{
+    width: 100%;
+}
+
+.footerBow:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.whatWeServe{
+    padding: 100px 0 50px 0;
+}
+
+.paddingTop{
+    padding-top: 20px;
+}
+
+.socialIcons{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+.socialIcons a{
+    text-decoration: none;
+    color: white;
+}
+
+.footerFour p{
+    padding-top: 10px;
+}
+
+.shopText i{
+    padding-left: 10px;
+}
+
+.orderButton i{
+    padding-left: 10px;
+}
+
+.serveLeft i{
+    padding-left: 10px;
+}
+
+
+.servicesList li:hover {
+    box-shadow: 0px 1px 20px 2px lightgrey;
+}
+
+.paddingZero{
+    padding: 0;
+}
+
+.paddingMiddle{
+    padding: 0 14px;
+}
+
+.backgroundWhite{
+    background: white;
+}
+
+.shopPic1 img{
+    position: relative;
+    left: 200px;
+    margin-top: 100px;
+    max-width: 100%;
+} 
+
+.perecePic img{
+    max-width: 100%;
+}
+
+.col-lg-3.col-md-6.col-sm-6.orderButton.paddingTop {
+    text-align: center;
+}
+
+
+@media(max-width:1496px) and (min-width:768px){
+    .menuIcon i{
+        display: none;
+    }
+}
+
+@media(max-width:1300px){
+    .col-sm-5.servicesLeft img{
+        display: none;
+    }
+
+    .col-sm-5.servicesLeft{
+        background-image: url("../images/bakery-34.jpg");
+        background-position: center;
+        background-size: cover;
+        max-width: 100%;
+    }
+
+    .bakedFreshDaily h1{
+        font-size: 50px;
+    }
+
+}
+
+@media(max-width:1199px){
+    .bakedFreshDaily h1{
+        font-size: 50px;
+    }
+
+    .shopPic1 img{
+        left: 100px;
+    }
+}
+
+@media(max-width:991px){
+    .col-sm-6.text-center.bakedFreshDaily h1 {
+        font-size: 50px;
+    }
+
+    .textSlider p{
+        font-size: 40px;
+    }
+
+    .shopText p{
+        max-width: 100%;
+    }
+
+    .bakery50 img, .bakery57 img {
+        max-width: 100%;
+    }
+
+    .col-sm-6.text-center.bakedFreshDaily h1 {
+    font-size: 35px;
+    }
+    .col-sm-5.servicesLeft{
+        background-position: center;
+        background-size: cover;
+    }
+
+    .shopPic1 img {
+        display: none;
+    }
+
+    .footerFour{
+        text-align: center;
+    }
+
+    h6.colorBrown {
+        padding: 20px 0;
+    }
+
+    .serveOption p {
+        padding: 0 5px;
+    }
+
+    .col-md-4.serveLeft h2 {
+        font-size: 25px;
+    }
+
+    .bakeryLanding h3 {
+        font-size: 20px;
+    }
+
+    .socialIcons{
+        margin: 0;
+    }
+
+}
+
+
+@media(max-width:767px){
+    
+
+    .servicesList ul {
+        width: 100%;
+    }
+    .menuBakery ul {
+        margin: 0;
+    }
+
+    .menuBakery li {
+        padding-right: 15px;
+    }
+
+    .bakeryLanding h3 {
+        font-size: 20px;
+    }
+    
+    .col-sm-6.text-center.bakedFreshDaily h1 {
+        font-size: 25px;
+    }    
+
+    .col-sm-6.text-center.bakedFreshDaily span{
+        font-size: 25px;
+    }
+
+    .col-sm-5.servicesLeft {
+        display: none;
+    }
+
+    .col-sm-7.servicesRight {
+        margin: auto;
+    }
+
+    .col-sm-4.serveLeft h2 {
+        font-size: 25px;
+    }
+    
+    .textSlider p {
+        font-size: 30px;
+    }
+
+    .textSlider {
+        padding: 150px 0;
+    }
+
+    
+
+    /* .col-md-6.text-center.bakery57 {
+        display: none;
+    } */
+
+    /* Menu */
+    
+    .menuIcon i{
+        display: block;
+    }
+
+    .menuBakery {
+        position: fixed;
+
+        width: 320px;
+        left: -320px;
+        top: 0;
+        padding: 20px;
+        z-index: 1000;
+        height: 100%;
+        overflow: auto;
+        transition: all 0.4s;
+    }
+
+    .menuBakery ul {
+        padding: 0;
+        display: block;
+        box-shadow: 1px 1px 11px #ccc;
+        padding: 20px;
+        text-align: center;
+        background: white;
+    }
+    
+    .menuBakery ul li {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .closeMenu {
+        display: block;
+        position: absolute;
+        background: #ffffff;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+        color: gray;
+        border-radius: 50%;
+        cursor: pointer;
+        box-shadow: 0px 0px 5px #000;
+    }
+
+    body.activeMenu:after {
+        content: "";
+        z-index: 10;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background:rgba(0,0,0,0.2)
+    }
+
+    .menuBakery.active {
+        left: 0
+    }
+    
+    .socialIcons{
+        margin: 0;
+    }
+    
+    
+}
+
+@media(max-width:576px){
+    .col-sm-3.bakery50 img {
+        display: none;
+    }
+
+    .col-sm-6.text-center.bakedFreshDaily span {
+        font-size: 15px;
+    }
+
+    .col-sm-3.text-right.bakedThirdPic img {
+        display: none;
+    }
+
+    .col-md-4.col-lg-3.col-sm-5.text-right.workDays p {
+        font-size: 12px;
+    }
+
+    .col-sm-5.wow.fadeInUp.shopPic {
+        display: none;
+    }
+
+    .col-sm-7.shopText.shopPadding {
+        margin: auto;
+        text-align: center;
+        padding: 150px 0 0 0;
+    }
+
+    .col-lg-3.col-md-6.col-sm-6 {
+        padding: 25px;
+    }
+
+    .servicesSection {
+        padding-top: 0;
+    }
+
+    .servicesTitle {
+        padding-top: 50px;
+    }
+
+    .col-md-4.col-lg-3.col-sm-5.text-right.workDays h6, .col-md-4.col-lg-3.col-sm-5.text-right.workDays p {
+        text-align: center;
+    }
+
+    .servicesTitle h2 {
+        text-align: center;
+    }
+
+    .servicesList ul {
+        margin: auto;
+        width: 100%;
+    }
+
+    .perecePic img {
+        display: none;
+    }
+
+    .row.footerFour {
+        text-align: center;
+    }
+
+    .col-sm-7.shopText.shopPadding a {
+        font-size: 13px;
+    }
+
+    .textSlider p{
+        font-size: 15px;
+    }
+
+    .textSlider {
+        padding: 120px 0;
+    }
+
+    ul.socialIcons {
+        padding-top: 20px;
+    }
+
+    span.colorBrown {
+        display: block;
+        text-align: center;
+    }
+
+    .servicesTitle h2 {
+        font-size: 25px;
+    }
+
+    .shopText {
+        padding-left: 0;
+    }
+
+    .whatWeServe {
+        text-align: center;
+    }
+
+    .col-sm-6.text-center.bakedFreshDaily h1 {
+        font-size: 21px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
